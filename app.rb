@@ -11,12 +11,11 @@ class App < Sinatra::Base
   end
 
   post '/puppy' do
-    Puppy.each do |pup| 
+    Puppy.each do |pup|
       pup.name = @name
       pup.age = @age
-      pup.breed = @breed 
+      pup.breed = @breed
     end
-
     erb :display_puppy
   end
 end
