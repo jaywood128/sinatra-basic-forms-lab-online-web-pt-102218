@@ -7,6 +7,6 @@ attr_accessor :name, :breed, :age
     @breed = breed
     @age = age
   end
-
+ binding.pry
 
 end 
