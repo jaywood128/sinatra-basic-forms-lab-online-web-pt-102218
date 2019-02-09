@@ -1,6 +1,6 @@
 class Puppy
-  
-attr_accessor :name, :breed, :age 
+
+attr_accessor :name, :breed, :age
 
   def initilialize(name, breed, age)
     @name = name
@@ -9,4 +9,4 @@ attr_accessor :name, :breed, :age
   end
  binding.pry
 
-end 
+end
