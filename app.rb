@@ -12,9 +12,9 @@ class App < Sinatra::Base
 
   post '/puppy' do
     Puppy.map do |pup|
-      pup.name = @name
-      pup.age = @age
-      pup.breed = @breed
+      # pup.name = @name
+      # pup.age = @age
+      # pup.breed = @breed
       binding.pry
     end
     erb :display_puppy
